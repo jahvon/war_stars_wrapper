@@ -1,0 +1,9 @@
+Flask
+gunicorn # Used for running the Flask app
+cachetools # Used for TTL caching
+requests # Used to access swapi data
+
+# For tests
+requests_mock
+pytest
+pytest-mock
